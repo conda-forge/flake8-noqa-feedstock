@@ -1,5 +1,5 @@
 {% set name = "flake8-noqa" %}
-{% set version = "1.2.3" %}
+{% set version = "1.2.5" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/flake8-noqa-{{ version }}.tar.gz
-  sha256: 71e0708f2c6608c7b9cd827e16eb842b706ecee35bf3a0c26f8f654bb47a9aa5
+  sha256: dff6a04d73711ce1947af657ad95b9878a20cafd2438c0cfd5b41cb0e2a97067
 
 build:
   number: 0
