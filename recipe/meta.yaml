@@ -1,5 +1,5 @@
 {% set name = "flake8-noqa" %}
-{% set version = "1.2.7" %}
+{% set version = "1.2.8" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/flake8-noqa-{{ version }}.tar.gz
-  sha256: 056a534871f17cb68f95653c4ab98b9fce2494b3d1ccde568ee5ae0b07845226
+  sha256: bf09d7305806b83097331fd592344073e65fcb48524a9da5883b294d36ae7a07
 
 build:
   number: 0
@@ -20,7 +20,7 @@ requirements:
     - pip
     - python >=3.6
   run:
-    - flake8 >=3.8.0,<5.0
+    - flake8 >=3.8.0,<6.0
     - python >=3.6
     - typing-extensions >=3.7.4.2
     - importlib-metadata
