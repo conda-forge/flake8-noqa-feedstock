@@ -1,13 +1,15 @@
-About flake8-noqa
-=================
-
-Home: https://github.com/plinss/flake8-noqa/
-
-Package license: LGPL-3.0-only
+About flake8-noqa-feedstock
+===========================
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/flake8-noqa-feedstock/blob/main/LICENSE.txt)
 
+Home: https://pypi.org/project/flake8-noqa/
+
+Package license: LGPL-3.0-only
+
 Summary: Flake8 noqa comment validation
+
+Development: https://github.com/plinss/flake8-noqa/
 
 Current build status
 ====================
