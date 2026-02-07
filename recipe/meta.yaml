@@ -17,13 +17,13 @@ build:
 requirements:
   host:
     - python {{ python_min }}
+    - setuptools
+    - setuptools-scm
     - pip
   run:
     - typing_extensions >=3.7.4.2
     - python >={{ python_min }}
     - flake8 >=5.0.0,<8.0
-    - typing-extensions >=3.7.4.2
-    - importlib-metadata <5.0.0,>=4.0.0
 
 test:
   imports:
